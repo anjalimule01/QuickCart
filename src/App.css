@@ -1,0 +1,47 @@
+#root {
+max-width: 1000px;
+margin: 0 auto;
+padding: 24px;
+font-family: Arial, sans-serif;
+color: #222;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid #ddd;
+margin-bottom: 24px;
+}
+
+.products {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 16px;
+margin-top: 24px;
+}
+
+.product {
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 16px;
+}
+
+button, a {
+cursor: pointer;
+}
+
+input {
+padding: 10px;
+width: 250px;
+max-width: 90%;
+}
+
+a {
+color: #2459d3;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
